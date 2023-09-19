@@ -1,0 +1,19 @@
+  167  mkdir -p Taller_clase_2/Archivos/Textos_Planos
+  168  mkdir -p Taller_clase_2/Mover_Imagen1_aqui
+  169  cd ./Taller_clase_2/Archivos
+  170  mkdir Pdf
+  171  cd Textos_planos
+  172  touch Texto_plano1.txt Texto_plano2.txt
+  173  echo "EL PROFE RIFA Y LO QUIERO MUCHO í²•" > Texto_plano1.txt
+  174  cp Texto_plano1.txt ./Texto_plano2.txt
+  175  cd ..
+  176  cd Pdf
+  177  curl -o Explicacion.pdf http://www.economia.unam.mx/deschimex/cechimex/chmxExtras/repositorio/archivos/Hola.pdf
+  178  cd ..
+  179  cd ..
+  180  curl -o Imagen1.png https://e.rpp-noticias.io/xlarge/2020/01/31/234923_894633.png
+  181  mv Imagen1.png Mover_Imagen1_aqui
+  182  tree ./ > estructura.txt
+  183  echo "EL PROFE RIFA Y LO QUIERO MUCHO í²•" >> estructura.txt
+  184  history | tail -n 17 > history.txt
+  185  history | tail -n 19 > history.txt
